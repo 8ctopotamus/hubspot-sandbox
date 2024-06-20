@@ -1,0 +1,23 @@
+{
+  "name": "hubspot-sandbox",
+  "version": "1.0.0",
+  "description": "[OAuth Authentication](https://developers.hubspot.com/docs/api/working-with-oauth)",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "npx tsc && node dist/app.js",
+    "dev": "npx nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^11.1.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
